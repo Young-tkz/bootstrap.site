@@ -1,0 +1,76 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <!-- Navbar container with Bootstrap classes for responsive navbar and background color -->
+
+  <div class="container-fluid">
+    <!-- Fluid container to keep navbar content aligned and responsive -->
+
+    <a class="navbar-brand" href="#">
+      <!-- Brand link, usually links to home page -->
+      <img src="./box-seam.svg" alt="moveit brand icon" height="30">
+      <!-- Brand icon image with alt text and fixed height -->
+      Move It
+      <!-- Brand name text -->
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- Button for toggling navbar collapse on smaller screens -->
+      <span class="navbar-toggler-icon"></span>
+      <!-- Icon inside the toggle button (hamburger menu) -->
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Collapsible navbar content container that toggles visibility -->
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <!-- Unordered list for nav items, with margin utilities for spacing -->
+
+        <li class="nav-item">
+          <!-- Single navigation item -->
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <!-- Link inside nav item, marked active for current page -->
+        </li>
+
+        <li class="nav-item">
+          <!-- Another navigation item -->
+          <a class="nav-link" href="#">About</a>
+          <!-- Link to About page -->
+        </li>
+
+        <li class="nav-item dropdown">
+          <!-- Dropdown nav item -->
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <!-- Dropdown toggle link that opens the dropdown menu -->
+            Services
+          </a>
+
+          <ul class="dropdown-menu">
+            <!-- Dropdown menu container -->
+
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <!-- Dropdown menu item link -->
+
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <!-- Another dropdown menu item -->
+
+            <li><hr class="dropdown-divider"></li>
+            <!-- Divider line between dropdown items -->
+
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <!-- Final dropdown menu item -->
+          </ul>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <!-- Inline form for search functionality with flexbox layout -->
+
+        <input class="form-control me-2" type="search" placeholder="Postcode" aria-label="Search"/>
+        <!-- Search input box with margin to the right and accessible label -->
+
+        <button class="btn btn-outline-primary" type="submit">Check</button>
+        <!-- Submit button styled as an outlined primary button -->
+      </form>
+
+    </div>
+  </div>
+</nav>
